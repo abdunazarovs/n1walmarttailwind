@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+   
+    font-family: "Montserrat";
+}
+.container{
+    max-width: 1440px;
+}
+.logo{
+    margin-left: 100px;
+}
+.phone{
+    display: flex;
+    align-items: center; 
+    gap: 25px; 
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.phone p{
+    color: rgba(66, 66, 66, 1);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: -0px;  
+}
+.russia{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px; 
+    margin-right: 100px;
+    
+
+}
+.styled_hr{
+    border: none;        
+    border-top: 1px solid rgba(85, 166, 48, 0.5);
+    width: 1440px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.texts{
+    display: flex;
+    gap: 70px;
+    margin-left: 105px;
+    margin-top: 25px;
+}
+.htexts{
+    color: rgba(66, 66, 66, 1);
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+}
+#intro{
+    background-color: rgba(236, 255, 235, 1);
+    width: 1440px;
+    height: 584px;
+    margin-left: 50px;
+}
+.ialtexts{
+    margin-left: 70px;
+    padding-top: 50px;
+}
+.ialtexts h4{
+    color: rgba(66, 66, 66, 1);
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+}
+.ialtexts h2{
+    color: rgba(85, 166, 48, 1);
+    font-family: "Montserrat";
+    font-size: 60px;
+    font-weight: 700;
+    width: 496px;
+    line-height: 65px;
+}
+.ialtexts h5{
+    color: rgba(66, 66, 66, 1);
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    width: 419px;
+    margin-top: 10px;
+}
+.register{
+    background-color: rgba(85, 166, 48, 1);
+    width: 285px;
+    height: 66px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 70px ;
+    margin-top: 50px;
+}
+.uznat{
+    background-color: rgba(85, 166, 48, 1);
+    width: 285px;
+    height: 66px;
+    background: none;
+    border: 10px;
+}
